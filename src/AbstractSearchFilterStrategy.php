@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Remind\RmndSearchFilter;
 
 use Remind\RmndSearchFilter\FieldStrategy\FieldStrategy;
-use Remind\RmndSearchFilter\SearchFilterStrategy;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 use TYPO3\CMS\Extbase\Persistence\QueryInterface;
 
@@ -145,7 +144,6 @@ abstract class AbstractSearchFilterStrategy implements SearchFilterStrategy
 
             /* The class was not found or is not loaded */
             if (!class_exists($fqcn)) {
-
                 $fqcn = $this->fallbackNamespace . ucfirst($name) . 'FieldStrategy';
 
                 if (!class_exists($fqcn)) {
