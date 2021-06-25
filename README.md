@@ -2,17 +2,21 @@
 
 An effort was made to provide a generalized approach to providing search filters.
 
-![remind-badge](https://img.shields.io/badge/author-REMIND-black.svg?style=flat-square)
-![library](https://img.shields.io/badge/type-library-lightgray.svg?style=flat-square)
-![typo3-badge](https://img.shields.io/badge/TYPO3-10.4-green.svg?style=flat-square)
-![php-badge](https://img.shields.io/badge/PHP-7.4-green.svg?style=flat-square)
-![license-badge](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)
-![version-badge](https://img.shields.io/badge/version-2.0.1-lightgrey.svg?style=flat-square)
+[travis-img]: https://img.shields.io/travis/remindgmbh/typo3-utilitites.svg?style=flat-square
+[codecov-img]: https://img.shields.io/codecov/c/github/remindgmbh/extbease-searchfilter.svg?style=flat-square
+[php-v-img]: https://img.shields.io/packagist/php-v/remind/extbease-searchfilter?style=flat-square
+[github-issues-img]: https://img.shields.io/github/issues/remindgmbh/extbease-searchfilter.svg?style=flat-square
+[contrib-welcome-img]: https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat-square
+[license-img]: https://img.shields.io/github/license/remindgmbh/extbease-searchfilter.svg?style=flat-square
+[styleci-img]: https://styleci.io/repos/380275185/shield
 
-## Build Status
-
-[![build-master](https://jenkins.remind.de/buildStatus/icon?job=rmnd_basemodules%2Fmaster&subject=master)](https://jenkins.remind.de/job/rmnd_basemodules/)
-[![build-develop](https://jenkins.remind.de/buildStatus/icon?job=rmnd_basemodules%2Fdevelop&subject=develop)](https://jenkins.remind.de/job/rmnd_basemodules/)
+[![travis-img]](https://travis-ci.com/github/remindgmbh/extbease-searchfilter)
+[![codecov-img]](https://codecov.io/gh/remindgmbh/extbease-searchfilter)
+[![styleci-img]](https://github.styleci.io/repos/380275185)
+[![php-v-img]](https://packagist.org/packages/remind/extbease-searchfilter)
+[![github-issues-img]](https://github.com/remindgmbh/extbease-searchfilter/issues)
+[![contrib-welcome-img]](https://github.com/remindgmbh/extbease-searchfilter/blob/master/CONTRIBUTING.md)
+[![license-img]](https://github.com/remindgmbh/extbease-searchfilter/blob/master/LICENSE)
 
 ---
 
