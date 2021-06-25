@@ -1,5 +1,5 @@
 {
-    "name": "remind/rmnd-searchfilter",
+    "name": "remind/extbase-searchfilter",
     "description": "Searchfilter library",
     "type": "library",
     "keywords": [
