@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Remind\RmndSearchFilter\FieldStrategy;
 
-use Remind\RmndSearchFilter\FieldStrategy\FieldStrategy;
 use TYPO3\CMS\Extbase\Object\ObjectManager;
 use TYPO3\CMS\Extbase\Persistence\Generic\Qom\ConstraintInterface;
 use TYPO3\CMS\Extbase\Persistence\QueryInterface;
