@@ -3,20 +3,20 @@
 An effort was made to provide a generalized approach to providing search filters.
 
 [travis-img]: https://img.shields.io/travis/remindgmbh/typo3-utilitites.svg?style=flat-square
-[codecov-img]: https://img.shields.io/codecov/c/github/remindgmbh/extbease-searchfilter.svg?style=flat-square
-[php-v-img]: https://img.shields.io/packagist/php-v/remind/extbease-searchfilter?style=flat-square
-[github-issues-img]: https://img.shields.io/github/issues/remindgmbh/extbease-searchfilter.svg?style=flat-square
+[codecov-img]: https://img.shields.io/codecov/c/github/remindgmbh/extbase-searchfilter.svg?style=flat-square
+[php-v-img]: https://img.shields.io/packagist/php-v/remind/extbase-searchfilter?style=flat-square
+[github-issues-img]: https://img.shields.io/github/issues/remindgmbh/extbase-searchfilter.svg?style=flat-square
 [contrib-welcome-img]: https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat-square
-[license-img]: https://img.shields.io/github/license/remindgmbh/extbease-searchfilter.svg?style=flat-square
+[license-img]: https://img.shields.io/github/license/remindgmbh/extbase-searchfilter.svg?style=flat-square
 [styleci-img]: https://styleci.io/repos/380275185/shield
 
-[![travis-img]](https://travis-ci.com/github/remindgmbh/extbease-searchfilter)
-[![codecov-img]](https://codecov.io/gh/remindgmbh/extbease-searchfilter)
+[![travis-img]](https://travis-ci.com/github/remindgmbh/extbase-searchfilter)
+[![codecov-img]](https://codecov.io/gh/remindgmbh/extbase-searchfilter)
 [![styleci-img]](https://github.styleci.io/repos/380275185)
-[![php-v-img]](https://packagist.org/packages/remind/extbease-searchfilter)
-[![github-issues-img]](https://github.com/remindgmbh/extbease-searchfilter/issues)
-[![contrib-welcome-img]](https://github.com/remindgmbh/extbease-searchfilter/blob/master/CONTRIBUTING.md)
-[![license-img]](https://github.com/remindgmbh/extbease-searchfilter/blob/master/LICENSE)
+[![php-v-img]](https://packagist.org/packages/remind/extbase-searchfilter)
+[![github-issues-img]](https://github.com/remindgmbh/extbase-searchfilter/issues)
+[![contrib-welcome-img]](https://github.com/remindgmbh/extbase-searchfilter/blob/master/CONTRIBUTING.md)
+[![license-img]](https://github.com/remindgmbh/extbase-searchfilter/blob/master/LICENSE)
 
 ---
 
