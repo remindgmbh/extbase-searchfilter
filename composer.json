@@ -36,18 +36,19 @@
         "optimize-autoloader": true,
         "apcu-autoloader": true,
         "vendor-dir": ".build/vendor",
-        "bin-dir": ".build/bin"
+        "bin-dir": ".build/bin",
+        "sort-packages": true
     },
     "require": {
         "php": "^7.4.0",
-        "typo3/cms-extbase": "^10.4.0 | ^9.5.0"
+        "typo3/cms-extbase": "^10.4.0"
     },
     "require-dev": {
-        "phpmd/phpmd": "^2.9.1",
+        "phpmd/phpmd": "^2.10.2",
         "remind/confluence-changelog": "^0.1.2",
-        "sebastian/phpcpd": "^5.0.0",
+        "sebastian/phpcpd": "^6.0.3",
         "squizlabs/php_codesniffer": "^3.6.0",
-        "typo3/testing-framework": "^5.0.0 | ^4.0.0"
+        "typo3/testing-framework": "^6.9.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -68,6 +69,7 @@
         "static-analysis": [
             "@pmd",
             "@phpcpd",
+            "@phpcs",
             "@test"
         ]
     }
