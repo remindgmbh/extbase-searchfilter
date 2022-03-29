@@ -37,11 +37,15 @@
         "apcu-autoloader": true,
         "vendor-dir": ".build/vendor",
         "bin-dir": ".build/bin",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        }
     },
     "require": {
-        "php": "^7.4.0",
-        "typo3/cms-extbase": "^10.4.0"
+        "php": "^7.4.0 | ^8.0.0",
+        "typo3/cms-extbase": "^10.4.0 | ^11.5.0"
     },
     "require-dev": {
         "phpmd/phpmd": "^2.10.2",

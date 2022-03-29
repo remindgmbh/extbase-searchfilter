@@ -2,7 +2,7 @@
 
 An effort was made to provide a generalized approach to providing search filters.
 
-[travis-img]: https://img.shields.io/travis/remindgmbh/typo3-utilitites.svg?style=flat-square
+[travis-img]: https://img.shields.io/travis/remindgmbh/extbase-searchfilter.svg?style=flat-square
 [codecov-img]: https://img.shields.io/codecov/c/github/remindgmbh/extbase-searchfilter.svg?style=flat-square
 [php-v-img]: https://img.shields.io/packagist/php-v/remind/extbase-searchfilter?style=flat-square
 [github-issues-img]: https://img.shields.io/github/issues/remindgmbh/extbase-searchfilter.svg?style=flat-square
