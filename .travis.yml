@@ -5,6 +5,8 @@ dist: xenial
 
 php:
     - 7.4
+    - 8.0
+    - 8.1
 
 env:
     global:
