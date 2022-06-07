@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Remind\RmndSearchFilter\Tests\Unit;
 
 use Remind\RmndSearchFilter\AbstractSearchFilterStrategy;
-use TypeError;;
+use TypeError;
 use TYPO3\TestingFramework\Core\Unit\UnitTestCase;
 
 /**
