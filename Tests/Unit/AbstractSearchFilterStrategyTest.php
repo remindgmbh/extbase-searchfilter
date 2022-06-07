@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace Remind\RmndSearchFilter\Tests\Unit;
 
 use Remind\RmndSearchFilter\AbstractSearchFilterStrategy;
-use TypeError;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Extbase\Object\ObjectManager;
+use TypeError;;
 use TYPO3\TestingFramework\Core\Unit\UnitTestCase;
 
 /**
@@ -20,17 +18,6 @@ final class AbstractSearchFilterStrategyTest extends UnitTestCase
         parent::setUp();
 
         $this->resetSingletonInstances = true;
-    }
-
-    public function testSetAndGetObjectManger(): void
-    {
-        $subject = $this->getMockForAbstractClass(AbstractSearchFilterStrategy::class);
-
-        $om = GeneralUtility::makeInstance(ObjectManager::class);
-
-        $subject->setObjectManager($om);
-
-        $this->assertEquals($subject->getObjectManager(), $om);
     }
 
     public function testSetAndGetFilter(): void
