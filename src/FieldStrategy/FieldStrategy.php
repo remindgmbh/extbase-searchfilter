@@ -27,7 +27,7 @@ interface FieldStrategy
      * @param mixed $filterValue
      * @return void
      */
-    public function setFilterValue($filterValue): void;
+    public function setFilterValue(mixed $filterValue): void;
 
     /**
      * Set the object manager instance.

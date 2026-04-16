@@ -15,15 +15,12 @@ interface SearchFilterStrategy
     /**
      * Parses the given filter and returns a db query result.
      *
-     * @return QueryInterface
      */
     public function parse(): QueryInterface;
 
     /**
      * Sets the object manager instance.
      *
-     * @param ObjectManager $objectManager
-     * @return void
      */
     public function setObjectManager(ObjectManager $objectManager): void;
 
@@ -37,8 +34,6 @@ interface SearchFilterStrategy
     /**
      * Sets the filter data that should be processed.
      *
-     * @param array $filter
-     * @return void
      */
     public function setFilter(array $filter): void;
 }
