@@ -16,23 +16,27 @@ abstract class AbstractFieldStrategy implements FieldStrategy
     /**
      * The filter value to be processed.
      *
-     * @var mixed
      */
-    protected $filterValue = null;
+    protected mixed $filterValue = null;
 
     /**
      * The object manager instance.
      *
-     * @var ObjectManager
      */
     protected ?ObjectManager $objectManager = null;
 
     /**
      * The query instance on which the filters will be applied.
      *
-     * @var QueryInterface
      */
     protected ?QueryInterface $query = null;
+
+    /**
+     * Implementing classes must define this function.
+     *
+     * @return ConstraintInterface|null
+     */
+    abstract public function process(): ?ConstraintInterface;
 
     /**
      * Creates a new instance for a strategy with default values.
@@ -45,19 +49,12 @@ abstract class AbstractFieldStrategy implements FieldStrategy
     }
 
     /**
-     * Implementing classes must define this function.
-     *
-     * @return ConstraintInterface|null
-     */
-    abstract public function process(): ?ConstraintInterface;
-
-    /**
      * Set the filter value that will be processed.
      *
      * @param mixed $filterValue
      * @return void
      */
-    public function setFilterValue($filterValue): void
+    public function setFilterValue(mixed $filterValue): void
     {
         $this->filterValue = $filterValue;
     }

@@ -13,19 +13,12 @@ use TYPO3\TestingFramework\Core\Unit\UnitTestCase;
  */
 final class AbstractSearchFilterStrategyTest extends UnitTestCase
 {
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        $this->resetSingletonInstances = true;
-    }
-
     public function testSetAndGetFilter(): void
     {
         $subject = $this->getMockForAbstractClass(AbstractSearchFilterStrategy::class);
 
         $filter = [
-            'test' => []
+            'test' => [],
         ];
 
         $subject->setFilter($filter);
@@ -39,5 +32,12 @@ final class AbstractSearchFilterStrategyTest extends UnitTestCase
 
         $this->expectException(TypeError::class);
         $subject->setFilter(null);
+    }
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $this->resetSingletonInstances = true;
     }
 }
